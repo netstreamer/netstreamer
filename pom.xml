@@ -15,15 +15,13 @@
   ~ limitations under the License.
   -->
 
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mohammadaltaleb.netstreamer</groupId>
     <artifactId>netstreamer</artifactId>
     <packaging>pom</packaging>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1</version>
 
     <name>Netstreamer</name>
     <url>http://netstreamer.mohammadaltaleb.com/</url>
@@ -49,7 +47,7 @@
         <url>https://github.com/netstreamer/netstreamer</url>
         <connection>scm:git:git://github.com/netstreamer/netstreamer.git</connection>
         <developerConnection>scm:git:https://github.com/netstreamer/netstreamer.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>netstreamer-0.1</tag>
     </scm>
 
     <developers>
