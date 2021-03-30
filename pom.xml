@@ -76,8 +76,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.6</maven.compiler.source>
         <maven.compiler.target>1.6</maven.compiler.target>
-        <netty.version>4.1.58.Final</netty.version>
+        <netty.version>4.1.60.Final</netty.version>
         <slf4j.version>1.7.30</slf4j.version>
+        <jackson.version>2.10.5.1</jackson.version>
+        <boringssl-static.version>2.0.36.Final</boringssl-static.version>
     </properties>
 
     <modules>
@@ -112,7 +114,7 @@
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-tcnative-boringssl-static</artifactId>
-                <version>2.0.30.Final</version>
+                <version>${boringssl-static.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.slf4j</groupId>
@@ -127,7 +129,7 @@
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-databind</artifactId>
-                <version>2.10.2</version>
+                <version>${jackson.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
