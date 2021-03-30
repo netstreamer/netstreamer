@@ -4,6 +4,7 @@ Netstreamer is a general-purpose event streaming library built on top of the asy
 
 The streamer uses a simple communication sub-protocol operating on the lower level WebSocket protocol to facilitate client authentication and topic subscription.
 
+
 ## Requirements
 
 * Java 1.6+
@@ -50,6 +51,7 @@ To stop receiving topic updates, the client must send an unsubscribe action
 {"action":"unsubscribe","param":"[TOPIC1],[TOPIC2]"}
 ```
 
+
 ## Project Structure
 
 The project contains the following maven modules
@@ -58,6 +60,25 @@ The project contains the following maven modules
   It could be used for testing the streamer and understanding how should the protocol be used,
   but should not be relied on in real-world applications.
 * **example**: contains example applications.
+
+
+## Binaries
+
+Binaries and dependency information for Maven, Gradle and others can be found at [http://search.maven.org](https://search.maven.org/search?q=com.mohammadaltaleb.netstreamer).
+
+### Maven
+```xml
+<dependency>
+    <groupId>com.mohammadaltaleb.netstreamer</groupId>
+    <artifactId>netstreamer-core</artifactId>
+    <version>x.y.z</version>
+</dependency>
+```
+
+### Gradle
+```groovy
+implementation group: 'com.mohammadaltaleb.netstreamer', name: 'netstreamer-core', version: 'x.y.z'
+```
 
 
 ## Usage
