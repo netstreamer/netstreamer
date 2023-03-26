@@ -78,6 +78,8 @@ public class NetstreamerConnector {
 
     /**
      * Open a WebSocket with Netstreamer
+     * @throws SSLException if ssl context building failed
+     * @throws InterruptedException if ChannelFuture sync was interrupted
      */
     public void connect() throws SSLException, InterruptedException {
         if (this.connected) {

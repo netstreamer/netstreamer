@@ -50,8 +50,9 @@ public class Client {
      * Create a new instance
      *
      * @param uid                   Client's unique identifier
+     * @param channel               Client's {@link Channel}
      * @param maxPayloadDrop        Maximum payload drop before disconnecting
-     * @param disconnectionListener Clients {@link ClientDisconnectionListener}
+     * @param disconnectionListener Client's {@link ClientDisconnectionListener}
      */
     public Client(String uid, Channel channel, int maxPayloadDrop, ClientDisconnectionListener disconnectionListener) {
         ObjectUtil.checkNotNull(uid, "uid");

@@ -33,7 +33,7 @@ public interface PayloadFactory {
      *
      * @param payloadString The payload string
      * @return A new {@link Payload} object
-     * @throws PayloadParsingException
+     * @throws PayloadParsingException if payload parsing failed
      */
     Payload fromString(String payloadString) throws PayloadParsingException;
 }
