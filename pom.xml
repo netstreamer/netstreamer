@@ -21,7 +21,7 @@
     <groupId>com.mohammadaltaleb.netstreamer</groupId>
     <artifactId>netstreamer</artifactId>
     <packaging>pom</packaging>
-    <version>0.1.4</version>
+    <version>0.1.5-SNAPSHOT</version>
 
     <name>Netstreamer</name>
     <url>http://netstreamer.mohammadaltaleb.com/</url>
@@ -47,7 +47,7 @@
         <url>https://github.com/netstreamer/netstreamer</url>
         <connection>scm:git:git://github.com/netstreamer/netstreamer.git</connection>
         <developerConnection>scm:git:https://github.com/netstreamer/netstreamer.git</developerConnection>
-        <tag>netstreamer-0.1.4</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
